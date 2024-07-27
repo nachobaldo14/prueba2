@@ -1,0 +1,122 @@
+header {
+    background-color: #000000;
+    height: 90px;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+header h1{
+    color: white
+}
+
+.divBarra{
+    height: 60px;
+    width: 100%;
+    background-color: #5b87b3;
+    margin-bottom: 10px;
+}
+
+div nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    color: #fff;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.padre{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;  
+    margin-bottom: 30px;
+}
+
+
+.contenedorFormulario{
+    width: 570px;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid #5b87b3  2px ;
+    justify-content: flex-start;
+    align-content: space-around;
+    flex-direction: column;
+    border-bottom: #fff;
+}
+
+
+.contenedorComentario{
+    width: 570px;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    border: solid #5b87b3  2px ;
+    justify-content: space-around;
+    align-items: center;
+    border-top: #fff;
+}
+
+input{
+    width: 150px;
+}
+
+form{
+    height: 150%;
+    width: 260px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column
+}
+
+label{
+    width: 150px;
+}
+
+h3{
+    width: 315px;
+    height: 22px;
+}
+
+#comentario{
+    width: 300px;
+    height: 150px;
+}
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    position: relative;
+    
+}
+
+body {
+    font-family: Arial;
+    font-size: 18px;
+    background-image: url("../fondoSuper.jpeg");
+}
+
+footer{
+    background-color: #3940c7;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}

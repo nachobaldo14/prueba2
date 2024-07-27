@@ -1,0 +1,99 @@
+header {
+    background-color: #000000;
+    height: 90px;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+}
+
+.divBarra{
+    height: 60px;
+    width: 100%;
+    background-color: #5b87b3;
+    margin-bottom: 10px;
+}
+
+div nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    color: #fff;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+footer{
+    background-color: #3940c7;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+
+.mensajeError{
+    color: red;
+    visibility: hidden;
+}
+/*.mostrarMensaje{
+    visibility: visible;  //este era el de la funcion de los productos pero luego me lo pisaba para utilizarlo en la funcion del total
+}*/
+.contenedorProductos{
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    width: 100%;
+    margin: 8px;
+    flex-wrap: wrap
+}
+
+body {
+    font-family: Arial;
+    font-size: 18px;
+    background-image: url("../fondoSuper.jpeg");
+}
+
+.card{
+    border: solid #5b87b3  2px ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 19%;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.divTotal{
+    font-size: 20px;
+    color: #fff;
+    background-color: #5b87b3;
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mensajeCompraExitosa{
+    visibility: hidden;
+    font-size: 16px;
+}
+
+.mostrarMensaje{
+    visibility: visible;
+}
+
+input{
+    border-radius: 12px;
+}
